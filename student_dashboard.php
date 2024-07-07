@@ -42,9 +42,9 @@ $conn->close();
                     <a class="link" href="repository.php?repo_id=<?php echo $repository['repo_id']; ?>">
                         <?php echo htmlspecialchars($repository['name']); ?>
                     </a>
-                    <form action="delete_repository.php" method="post" class="inline-form">
+                    <form action="delete_repository.php" method="post">
                         <input type="hidden" name="repo_id" value="<?php echo $repository['repo_id']; ?>">
-                        <button type="submit" class="button delete-button">Delete</button>
+                        <button type="submit">Delete Repository</button>
                     </form>
                 </li>
                 <?php endforeach; ?>

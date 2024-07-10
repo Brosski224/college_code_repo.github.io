@@ -124,3 +124,21 @@ ul li .score {
     height: 100%;
     object-fit: cover;
 }
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-toggle-icon i {
+    font-size: 18px;
+    line-height: 1;
+    color: #c9d1d9;
+    transition: color 0.3s ease-in-out;
+}
+
+.password-toggle-icon i:hover {
+    color: #58a6ff;
+}
